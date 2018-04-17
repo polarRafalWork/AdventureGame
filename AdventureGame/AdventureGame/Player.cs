@@ -57,6 +57,17 @@ namespace AdventureGame
                 }
             }
         }
-
+        public void Move()
+        {
+            base.location = Move(direction, game.Boundaries);
+            if (!game.WeaponInRoom.PickedUp)
+            {
+                // sprawdz czy broń jest w pobliżu, a jeśli tak to podnieś ją
+            }
+        }
+        public void Attack(Direction direction, Random random)
+        {
+            
+        }
     }
 }

@@ -51,12 +51,17 @@
     <Compile Include="AdventureGameWindow.Designer.cs">
       <DependentUpon>AdventureGameWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bat.cs" />
     <Compile Include="Direction.cs" />
+    <Compile Include="Enemy.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="IPotion.cs" />
     <Compile Include="Mover.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sword.cs" />
+    <Compile Include="Weapon.cs" />
     <EmbeddedResource Include="AdventureGameWindow.resx">
       <DependentUpon>AdventureGameWindow.cs</DependentUpon>
     </EmbeddedResource>
